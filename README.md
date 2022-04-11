@@ -71,3 +71,26 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+# Custom development
+
+Help with validation and error handling
+
+```bash
+npm add class-validator class-transformer
+```
+
+Quick local SQL Database development
+
+```bash
+docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=xxxxxxx -d postgres
+```
+
+PostgreSQL Tools:
+
+```bash
+npm add typeorm@0.2.32 @nestjs/typeorm pg
+```
+
+- [pgAdmin](https://www.pgadmin.org/)
+- [TypeORM Doc](https://typeorm.io/)
