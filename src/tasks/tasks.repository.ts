@@ -3,6 +3,8 @@ import { Task } from './task.entity';
 import { TasksStatus } from './task-status.enum';
 import { createTaskDto } from './dto/create-task-dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter-dto';
+
+//TODO: update typeorm -> https://github.com/nestjs/typeorm/pull/1233
 @EntityRepository(Task)
 export class TasksRepository extends Repository<Task> {
   async getTasks(filterDto: GetTasksFilterDto): Promise<Task[]> {
