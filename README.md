@@ -117,3 +117,7 @@ Manage JWT
 npm i @nestjs/jwt @nestjs/passport passport passport-jwt
 npm i @types/passport-jwt -D
 ```
+
+Logging
+
+Logger inside NestJS!
