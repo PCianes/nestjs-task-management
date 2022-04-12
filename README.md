@@ -95,7 +95,7 @@ npm add typeorm@0.2.32 @nestjs/typeorm pg
 - [pgAdmin](https://www.pgadmin.org/)
 - [TypeORM Doc](https://typeorm.io/)
 
-### Auth
+## Auth
 
 Example of init new module with CLI
 
@@ -118,7 +118,7 @@ npm i @nestjs/jwt @nestjs/passport passport passport-jwt
 npm i @types/passport-jwt -D
 ```
 
-Logging
+## Logging & Configuration
 
 Logger inside NestJS!
 
@@ -134,6 +134,13 @@ DB_PORT=
 DB_USERNAME=
 DB_PASSWORD=
 DB_DATABASE=
+```
+
+Config Schema validation
+
+```bash
+npm i @hapi/joi
+npm i -D @types/hapi__joi
 ```
 
 Windows users only: Environment Variables
