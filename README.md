@@ -94,3 +94,13 @@ npm add typeorm@0.2.32 @nestjs/typeorm pg
 
 - [pgAdmin](https://www.pgadmin.org/)
 - [TypeORM Doc](https://typeorm.io/)
+
+### Auth
+
+Example of init new module with CLI
+
+```bash
+nest g module auth
+nest g controller auth --no-spec
+nest g service auth --no-spec
+```
