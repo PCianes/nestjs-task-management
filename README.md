@@ -121,3 +121,30 @@ npm i @types/passport-jwt -D
 Logging
 
 Logger inside NestJS!
+
+Configuration
+
+```bash
+npm i @nestjs/config
+
+#.env.stage.dev
+JWT_SECRET=
+DB_HOST=
+DB_PORT=
+DB_USERNAME=
+DB_PASSWORD=
+DB_DATABASE=
+```
+
+Windows users only: Environment Variables
+
+```bash
+npm install -g cross-env //windows
+```
+
+Example:
+
+```javascript
+#package.json
+"start:dev": "cross-env STAGE=dev nest start --watch"
+```
