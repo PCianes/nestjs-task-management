@@ -110,3 +110,10 @@ Manage passwords
 ```bash
 npm i bcrypt
 ```
+
+Manage JWT
+
+```bash
+npm i @nestjs/jwt @nestjs/passport passport passport-jwt
+npm i @types/passport-jwt -D
+```
