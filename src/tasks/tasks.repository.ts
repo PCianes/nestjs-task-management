@@ -3,7 +3,7 @@ import { Task } from './task.entity';
 import { TasksStatus } from './task-status.enum';
 import { createTaskDto } from './dto/create-task-dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter-dto';
-import { User } from 'src/auth/user.entity';
+import { User } from '../auth/user.entity';
 import { InternalServerErrorException, Logger } from '@nestjs/common';
 
 //TODO: update typeorm -> https://github.com/nestjs/typeorm/pull/1233
